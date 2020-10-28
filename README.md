@@ -1,10 +1,8 @@
 # Auto Milestone Binder
 
-![Test Milestone Binder](https://github.com/Code-Hex/auto-milestone-binder/workflows/Test%20Milestone%20Binder/badge.svg)
+![Test Milestone Check](https://github.com/Jolg42/milestone-check/workflows/Test%20Milestone%20Check/badge.svg)
 
-An action for binding milestone to some PR or some issues.
-
-You can see the example: https://github.com/Code-Hex/auto-milestone-binder/issues/7
+An action for checking if PR have a milestone.
 
 # Usage
 
@@ -21,7 +19,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: Code-Hex/auto-milestone-binder@v1.0.0
+    - uses: Jolg42/pr-milestone-check@v0.0.1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
 ```

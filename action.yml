@@ -1,6 +1,6 @@
-name: 'Auto Milestone Binder'
-description: 'An action for binding milestone to some PR or some issues'
-author: 'Code-Hex'
+name: 'PR Milestone Check'
+description: 'An action for checking if a milestone is assigned to a PR'
+author: 'Jolg42'
 branding:
   icon: git-branch
   color: blue

@@ -1,21 +1,21 @@
 {
-  "name": "auto-milestone-binder",
-  "version": "1.0.0",
-  "description": "An action for binding milestone to some PR or some issues",
+  "name": "pr-milestone-check",
+  "version": "0.0.1",
+  "description": "An action for checking if a milestone is assigned to a PR",
   "main": "lib/main.js",
-  "author": "Code-Hex",
+  "author": "Jolg42",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^25.2.3",
-    "@types/mocha": "^7.0.2",
-    "jest": "^26.1.0",
-    "prettier": "^2.0.5",
-    "ts-jest": "26.1.1",
-    "typescript": "3.9.5"
+    "@types/jest": "^26.0.15",
+    "@types/mocha": "^8.0.3",
+    "jest": "^26.6.1",
+    "prettier": "^2.1.2",
+    "ts-jest": "26.4.3",
+    "typescript": "4.0.5"
   },
   "dependencies": {
-    "@actions/core": "^1.2.4",
-    "@actions/github": "^2.2.0",
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
     "compare-versions": "^3.6.0"
   },
   "scripts": {
