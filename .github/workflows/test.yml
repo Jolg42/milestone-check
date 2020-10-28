@@ -1,6 +1,11 @@
-name: "Test Milestone Check"
+name: "Test PR Milestone Check"
+
 on:
   pull_request:
+    types: [opened]
+
+  issues:
+    types: [opened, milestoned, demilestoned]
 
 jobs:
   test:
@@ -9,5 +14,3 @@ jobs:
       - uses: actions/checkout@v2
       - name: test
         uses: ./
-        # with:
-        #   github-token: "${{ secrets.GITHUB_TOKEN }}"
