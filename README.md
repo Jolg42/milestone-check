@@ -1,4 +1,4 @@
-# Auto Milestone Binder
+# PR Milestone Check
 
 ![Test Milestone Check](https://github.com/Jolg42/milestone-check/workflows/Test%20Milestone%20Check/badge.svg)
 
